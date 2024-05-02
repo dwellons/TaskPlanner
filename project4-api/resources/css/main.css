@@ -1,0 +1,155 @@
+html {
+    font-family: Calibri, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/71/Wikipedia_notebook_pencil_puzzles.jpg");
+    /* Background image source: https://commons.wikimedia.org/wiki/File:Wikipedia_notebook_pencil_puzzles.jpg
+    This file is made available under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
+    The person who associated a work with this deed has dedicated the work to the public domain by waiving all of their
+    rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent
+    allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes,
+    all without asking permission.
+     */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    align-self: flex-start;
+    margin-left: 1em;
+}
+
+h1 {
+    color: #1e0c17;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: .5em;
+}
+
+h2 {
+    color: #1e0c17;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: .5em;
+}
+
+p {
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(229, 240, 255, 0.98);
+    background-blend-mode: lighten;
+    border: #1e0c17;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: .2em;
+    max-width: 40em;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#inputTitle {
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+#task {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 2em;
+    width: 100%;
+    max-width: 20em;
+
+}
+
+#newTask {
+    font-size: 15px;
+
+}
+
+#results {
+    max-width: 40em;
+    align-self: center;
+
+}
+
+#resultsTable {
+    background-color: rgb(245, 245, 245);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 20em;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+#resultsTable th, #resultsTable td {
+    text-align: left;
+    margin: 0em;
+    padding: 1em;
+}
+
+#resultsTable tbody {
+    border: #1e0c17;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+#pageDescription {
+    max-width: 35em;
+    padding: 1em;
+    background-color: rgba(229, 240, 255, 0.98);
+    background-blend-mode: lighten;
+    border: #1e0c17;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    max-height: 20em;
+}
+
+.container {
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 12em;
+}
+
+#toDoList {
+    width: 50%;
+    margin-left: 5em;
+    padding: 1em;
+    background-color: rgba(229, 240, 255, 0.98);
+    background-blend-mode: lighten;
+    border: #1e0c17;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+}
+
+#pageDescription {
+    width: 50%;
+    margin-right: 5em;
+    max-height: 50em;
+}
+
+li {
+    padding: .5em;
+}
